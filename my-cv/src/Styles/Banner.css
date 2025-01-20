@@ -16,11 +16,10 @@
     background-color: #b0f2b6;
 }
 
-
 .mcv-header {
     display: flex;
-    align-items: center; /* ✅ Aligne le logo et le titre verticalement */
-    gap: 15px; /* ✅ Ajoute un espace entre le logo et le titre */
+    align-items: center; 
+    gap: 15px; 
 }
 
 .mcv-title {
@@ -39,6 +38,3 @@
     text-transform: capitalize;
     font-family: bannerfont;
 }
-
-
-

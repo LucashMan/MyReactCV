@@ -1,0 +1,28 @@
+.mcv-competence {
+    text-align: center;
+    padding: 20px;
+}
+
+.competence-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 10px;
+}
+
+.competence-logo {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.competence-logo:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .competence-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
