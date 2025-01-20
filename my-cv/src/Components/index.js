@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import ContactForm from './Contactform';
 import AnimatedSection from './AnimatedSection';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from '../../reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

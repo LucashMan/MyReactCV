@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./theme";
-import projects from "./projects.json";
+import projects from "../../projects.json";
 import { useReactToPrint } from "react-to-print";
 
 const Container = styled.div`
