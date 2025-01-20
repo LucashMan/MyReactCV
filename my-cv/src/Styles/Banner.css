@@ -1,0 +1,44 @@
+@font-face {
+    font-family: bannerfont;
+    src: url(../Assets/font/Montserrat-Regular.ttf);
+}
+
+.mcv-banner {
+	color: black;
+	text-align: right;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column  ;
+	align-items: center;
+    /* background-image: url("../Assets/img/background.jpg"); */
+    background-color: #b0f2b6;
+}
+
+
+.mcv-header {
+    display: flex;
+    align-items: center; /* ✅ Aligne le logo et le titre verticalement */
+    gap: 15px; /* ✅ Ajoute un espace entre le logo et le titre */
+}
+
+.mcv-title {
+	padding-left: 32px;
+}
+
+.mcv-logo {
+	height: 100px;
+	width: 100px;
+}
+
+.mcv-typing {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: bannerfont;
+}
+
+
+
