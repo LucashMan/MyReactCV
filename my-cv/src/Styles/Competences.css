@@ -1,6 +1,7 @@
 .mcv-competence {
     text-align: center;
     padding: 20px;
+    border: solid 3px black;
 }
 
 .competence-grid {

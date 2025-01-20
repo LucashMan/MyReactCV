@@ -3,7 +3,6 @@
     max-width: 800px; /* Largeur max pour éviter que ça s'étale */
     margin: 30px auto; /* Centrer dans la page */
     padding: 20px;
-    border-bottom: solid 3px black;
 }
 
 .mcv-apropos h2 {
