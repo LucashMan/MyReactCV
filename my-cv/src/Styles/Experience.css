@@ -2,17 +2,31 @@
     text-align: center;
     padding: 20px;
     /*background-color: #f5f5f5;*/
-  }
-  .vertical-timeline-element-title {
+}
+
+.vertical-timeline-element-title {
     font-size: 20px;
     font-weight: bold;
-  }
+}
 
-  .vertical-timeline-element-subtitle{
+.vertical-timeline-element-subtitle{
     font-size: 15px;
     font-weight: lighter;
-  }
+}
+
+.vertical-timeline-element-content{
+  box-shadow: none;
+}
+
 
 .vertical-timeline-element-icon {
     box-shadow: none !important;
+    border-radius: unset;
+
+}
+
+.vertical-timeline-element--right .vertical-timeline-element-date {
+  left: auto;
+  right: -120px;
+  text-align: left;
 }

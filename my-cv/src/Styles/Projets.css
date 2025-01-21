@@ -1,3 +1,27 @@
 .mcv-projets{
-    font-size: 5px;
+    background-color: lightblue;
+}
+
+.mcv-projettitle{
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.mcv-logo {
+	height: 200px;
+	width: 150px;
+}
+
+.mcv-card {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0,1);
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 50px;
 }

@@ -14,7 +14,7 @@ function Experience() {
           contentStyle={{ background: '#b0f2b6', color: '#000000', border: '3px solid #000000' }}
           contentArrowStyle={{ borderRight: '7px solid  #000000' }}
           date="Septembre 2021 - Decembre 2021"
-          iconStyle={{ background: '#b0f2b6', color: '#000000', border: '3px solid  #000000,' }}
+          iconStyle={{ background: '#b0f2b6', color: '#000000', border: '3px solid  #000000' }}
           icon={<MdOutlineComputer />}
         >
           <h3 className="vertical-timeline-element-title">Developpeur/Integrateur Web</h3>
