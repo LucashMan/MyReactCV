@@ -1,10 +1,18 @@
 .mcv-experience {
     text-align: center;
     padding: 20px;
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;*/
   }
   .vertical-timeline-element-title {
     font-size: 20px;
     font-weight: bold;
   }
-  
+
+  .vertical-timeline-element-subtitle{
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+.vertical-timeline-element-icon {
+    box-shadow: none !important;
+}

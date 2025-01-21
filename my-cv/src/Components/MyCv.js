@@ -12,9 +12,6 @@ function MyCv() {
       <div className='mcv-experience'>
         <Experience />
       </div>
-      <h2>Projets</h2>
-      <h3>Titre h3</h3>
-      <p>paragraphe 3</p>
       </div>
     </div>
   );

@@ -12,7 +12,9 @@
 	justify-content: flex-start;
 	flex-direction: column  ;
 	align-items: center;
-    /* background-image: url("../Assets/img/background.jpg"); */
+    /*background-image: url("../Assets/img/massena.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
     background-color: #b0f2b6;
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./Banner";
 import MyCv from "./MyCv";
 import ContactForm from "./Contactform";
+import Projets from "./Projets";
 
 
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Banner />
       <MyCv />
+      <Projets />
       <ContactForm />
     </div>
   );

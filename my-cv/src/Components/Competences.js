@@ -28,8 +28,14 @@ function Competences() {
         <div className='mcv-competence'>
             <h2>Mes Compétences :</h2>
             <div className='competence-grid'>
-                {logos.map((logo, index) => (
-                    <img key={index} src={logo.src} alt={logo.alt} className="competence-logo" />
+            {logos.map((logo, index) => (
+                    <img 
+                        key={index} 
+                        src={logo.src} 
+                        alt={logo.alt} 
+                        title={logo.alt} 
+                        className="competence-logo" 
+                    />
                 ))}
             </div>
         </div>
