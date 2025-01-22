@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import MyCv from "./MyCv";
 import ContactForm from "./Contactform";
 import Projets from "./Projets";
+import Hobbys from "./Hobbys";
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <MyCv />
       <Projets />
+      <Hobbys />
       <ContactForm />
     </div>
   );

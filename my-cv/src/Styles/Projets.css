@@ -11,7 +11,6 @@
     text-align: center;
 }
 
-
 .mcv-logo {
     height: 150px;
     width: 150px;
@@ -35,12 +34,9 @@
     max-width: 250px;
     padding: 15px;
     background: white;
-    overflow: hidden; /* Évite tout dépassement de contenu */
+    overflow: hidden;
 }
 
-
-
-/*.mcv-btmbanner:hover {*/
 .mcv-btmbanner {
     position: absolute;
     bottom: 0;
