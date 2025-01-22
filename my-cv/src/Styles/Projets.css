@@ -1,27 +1,55 @@
-.mcv-projets{
+.mcv-projets {
     background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 3px black;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
-.mcv-projettitle{
+.mcv-projettitle {
     text-align: center;
 }
 
-h2 {
-    margin-top: 0px;
-}
 
 .mcv-logo {
-	height: 200px;
-	width: 150px;
+    height: 150px;
+    width: 150px;
+}
+
+.mcv-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px;
 }
 
 .mcv-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     border: 2px solid black;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0,1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 250px;
-    display: inline-block;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    padding: 15px;
+    background: white;
+    overflow: hidden; /* Évite tout dépassement de contenu */
+}
+
+
+
+/*.mcv-btmbanner:hover {*/
+.mcv-btmbanner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: green;
+    background-size: auto;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
 }
