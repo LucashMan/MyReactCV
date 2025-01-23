@@ -3,6 +3,7 @@ import vblogo from '../Assets/img/vbscore.png';
 import POlogo from '../Assets/img/POlogo.png';
 import Epilogo from '../Assets/img/Python.png';
 import CSlogo from '../Assets/img/CSlogo.png';
+import HKlogo from '../Assets/img/hackaton.png';
 
 function Projets() {
     const projets = [
@@ -39,27 +40,11 @@ function Projets() {
             isUpdate: "no"
         },
         {
-            titre: "Hackaton1",
-            image: CSlogo,
-            description: "Passionnée de jeux video et nottanment du jeux Counter Strike, j'ai décidé de developpé un strat book pour s'ameliorer au jeu et ainsi mieux jouer en equipe.",
-            langage: "Stack MERN",
-            lien: "https://drive.google.com/drive/folders/1A0cJnrf7v9ugSh3KqxaRWTit7im6u-B9?usp=sharing",
-            isUpdate: "no"
-        },
-        {
-            titre: "Hackaton2",
-            image: CSlogo,
-            description: "Passionnée de jeux video et nottanment du jeux Counter Strike, j'ai décidé de developpé un strat book pour s'ameliorer au jeu et ainsi mieux jouer en equipe.",
-            langage: "Stack MERN",
-            lien: "https://drive.google.com/drive/folders/1A0cJnrf7v9ugSh3KqxaRWTit7im6u-B9?usp=sharing",
-            isUpdate: "no"
-        },
-        {
-            titre: "Hackaton3",
-            image: CSlogo,
-            description: "Passionnée de jeux video et nottanment du jeux Counter Strike, j'ai décidé de developpé un strat book pour s'ameliorer au jeu et ainsi mieux jouer en equipe.",
-            langage: "Stack MERN",
-            lien: "https://drive.google.com/drive/folders/1A0cJnrf7v9ugSh3KqxaRWTit7im6u-B9?usp=sharing",
+            titre: "Hackaton realisé",
+            image: HKlogo,
+            description: "\bHackaton Bibliotheca 2022 (2eme place) *La bibliothéque du futur* avec la ville de Nice  \n\bHackaton Inclusion 2023 (2eme place) *La technologie au service de l’inclusion* avec le What06 \n\bHackaton Tech for tourism 2023 (2eme place) *La technologie et le tourisme de demain* avec Cannes is UP",
+            langage: "Hackaton",
+            lien: null,
             isUpdate: "no"
         }
     ];
@@ -76,8 +61,8 @@ function Projets() {
                         <a href={projet.lien} target="_blank" rel="noopener noreferrer">
                             <img src={projet.image} alt={projet.titre} className="mcv-logo" />
                         </a>
-                        <p>{projet.description}</p>
-                        <p>{projet.langage}</p>
+                        <p className="p-space">{projet.description}</p>
+                        <p className="p-bolder">{projet.langage}</p>
                         {/* <div className='mcv-btmbanner'>
                             {(() => {
                                 if (projet.isUpdate === "yes") {

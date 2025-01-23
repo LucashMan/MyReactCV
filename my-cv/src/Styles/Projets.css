@@ -50,3 +50,11 @@
     padding: 5px;
     border-radius: 10px;
 }
+
+.p-space{
+    white-space: pre-line;
+}
+
+.p-bolder{
+    font-weight: bold;
+}
