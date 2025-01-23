@@ -1,10 +1,20 @@
 .mcv-hobbys {
+    background: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    border-bottom: solid 3px black;
+}
+
+.mcv-hobbytitle {
+    text-align: center;
+}
+
+.mcv-hobbyscards {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: lightblue;
-    padding: 50px;
-    border-bottom: solid 3px black;
+    flex-direction: row
 }
 
 .card {
@@ -15,14 +25,16 @@
     background: lightgreen;
     cursor: pointer;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .card-back {
     background: lightgreen;
+    font-size: 20px;
 }
 
 .volleyballicon {

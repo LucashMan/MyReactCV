@@ -37,6 +37,30 @@ function Projets() {
             langage: "Stack MERN",
             lien: "https://drive.google.com/drive/folders/1A0cJnrf7v9ugSh3KqxaRWTit7im6u-B9?usp=sharing",
             isUpdate: "no"
+        },
+        {
+            titre: "Hackaton1",
+            image: CSlogo,
+            description: "Passionnée de jeux video et nottanment du jeux Counter Strike, j'ai décidé de developpé un strat book pour s'ameliorer au jeu et ainsi mieux jouer en equipe.",
+            langage: "Stack MERN",
+            lien: "https://drive.google.com/drive/folders/1A0cJnrf7v9ugSh3KqxaRWTit7im6u-B9?usp=sharing",
+            isUpdate: "no"
+        },
+        {
+            titre: "Hackaton2",
+            image: CSlogo,
+            description: "Passionnée de jeux video et nottanment du jeux Counter Strike, j'ai décidé de developpé un strat book pour s'ameliorer au jeu et ainsi mieux jouer en equipe.",
+            langage: "Stack MERN",
+            lien: "https://drive.google.com/drive/folders/1A0cJnrf7v9ugSh3KqxaRWTit7im6u-B9?usp=sharing",
+            isUpdate: "no"
+        },
+        {
+            titre: "Hackaton3",
+            image: CSlogo,
+            description: "Passionnée de jeux video et nottanment du jeux Counter Strike, j'ai décidé de developpé un strat book pour s'ameliorer au jeu et ainsi mieux jouer en equipe.",
+            langage: "Stack MERN",
+            lien: "https://drive.google.com/drive/folders/1A0cJnrf7v9ugSh3KqxaRWTit7im6u-B9?usp=sharing",
+            isUpdate: "no"
         }
     ];
 
@@ -54,7 +78,7 @@ function Projets() {
                         </a>
                         <p>{projet.description}</p>
                         <p>{projet.langage}</p>
-                        <div className='mcv-btmbanner'>
+                        {/* <div className='mcv-btmbanner'>
                             {(() => {
                                 if (projet.isUpdate === "yes") {
                                     return <p>Projet à jour !</p>;
@@ -62,7 +86,7 @@ function Projets() {
                                     return <p>En cours de maintenance</p>;
                                 }
                             })()}
-                        </div>
+                        </div> */}
                     </div>
                 ))}
             </div>
