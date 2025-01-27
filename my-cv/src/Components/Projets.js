@@ -18,9 +18,9 @@ function Projets() {
         {
             titre: "Project Overland",
             image: POlogo,
-            description: "Développement d'un jeu vidéo sur le logiciel Unreal Engine dans le cadre d'un projet sur trois ans au sein de mon école. Le jeu a pour but de mettre en version numérique les jeux de rôle (jdr) sur table afin de faciliter l'accès aux joueurs et de permettre une meilleure immersion grâce au système de création de monde.",
+            description: "Développement d'une application sur le logiciel Unreal Engine dans le cadre d'un projet sur trois ans au sein de mon école. L'application a pour but de mettre en version numérique les jeux de rôle (jdr) sur table afin de faciliter l'accès aux joueurs et de permettre une meilleure immersion grâce à l'interface graphique.",
             langage: "Unreal Engine/C++",
-            lien: "https://exemple.com/projet2",
+            lien: "https://epitechfr-my.sharepoint.com/:f:/r/personal/adam_mellakh_epitech_eu/Documents/build?csf=1&web=1&e=pnlSkM",
             isUpdate: "yes"
         },
         {
@@ -40,7 +40,7 @@ function Projets() {
         //     isUpdate: "no"
         // },
         {
-            titre: "Hackaton realisé",
+            titre: "Hackatons realisé",
             image: HKlogo,
             description: ">Hackaton Bibliotheca 2022 (2eme place) *La bibliothéque du futur* avec la ville de Nice  \n>Hackaton Inclusion 2023 (2eme place) *La technologie au service de l’inclusion* avec le What06 \n>Hackaton Tech for tourism 2023 (2eme place) *La technologie et le tourisme de demain* avec Cannes is UP",
             langage: "Hackaton",
@@ -52,7 +52,7 @@ function Projets() {
     return (
         <div className="mcv-projets">
             <div className="mcv-projettitle">
-                <h2>Mes Projets</h2>
+                <h2>Mes Principaux Projets</h2>
             </div>
             <div className="mcv-cards">
                 {projets.map((projet, index) => (

@@ -21,7 +21,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">Tendance Locale</h4>
           <p>
             Développement de site web pour des clients.
-            Développement bot automatisation des taches.
+            Développement d'un bot en python pour automatiser des taches.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
