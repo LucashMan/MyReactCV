@@ -1,6 +1,7 @@
 import { Typewriter } from 'react-simple-typewriter';
-import logo from '../Assets/img/logo.png';
+/*import logo from '../Assets/img/logo.png';*/
 import '../Styles/Banner.css';
+import lucasimg from '../Assets/img/lucasIMG.jpg';
 
 function Banner() {
     const title = 'Lucas Mancini - Étudiant 5ème année Epitech';
@@ -8,7 +9,7 @@ function Banner() {
     return (
         <div className='mcv-banner'>
             <div className='mcv-header'>
-                <img src={logo} alt='Mon Cv' className='mcv-logo' />
+                <img src={lucasimg} alt='Mon Cv' className='mcv-profile' />
                 <h1 className='mcv-title'>{title}</h1>
             </div>
             <p className='mcv-typing'>

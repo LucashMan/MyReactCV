@@ -6,16 +6,15 @@
 .mcv-banner {
 	color: black;
 	text-align: right;
-	padding: 32px;
+	padding: 200px;
 	border-bottom: solid 3px black;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column  ;
 	align-items: center;
-    /*background-image: url("../Assets/img/massena.jpeg");
+    background-image: url("../Assets/img/cerf.jpg");
     background-repeat: no-repeat;
-    background-size: cover;*/
-    background-color: #b0f2b6;
+    background-size: cover;
 }
 
 .mcv-header {
@@ -28,9 +27,11 @@
 	padding-left: 32px;
 }
 
-.mcv-logo {
-	height: 100px;
-	width: 100px;
+.mcv-profile {
+	height: 150px;
+	width: 150px;
+    border: solid 3px greenyellow;
+    border-radius: 90px;
 }
 
 .mcv-typing {

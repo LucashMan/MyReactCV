@@ -1,5 +1,5 @@
 .mcv-projets {
-    background-color: lightblue;
+    background-image: url("../Assets/img/titleBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: solid 3px black;
@@ -14,6 +14,8 @@
 .mcv-logo {
     height: 150px;
     width: 150px;
+    border: solid 3px black;
+    border-radius: 90px;
 }
 
 .mcv-cards {

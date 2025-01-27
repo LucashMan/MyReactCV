@@ -2,7 +2,7 @@ import '../Styles/Projets.css'
 import vblogo from '../Assets/img/vbscore.png';
 import POlogo from '../Assets/img/POlogo.png';
 import Epilogo from '../Assets/img/Python.png';
-import CSlogo from '../Assets/img/CSlogo.png';
+/*import CSlogo from '../Assets/img/CSlogo.png';*/
 import HKlogo from '../Assets/img/hackaton.png';
 
 function Projets() {
@@ -10,7 +10,7 @@ function Projets() {
         {
             titre: "Volleyball score App",
             image: vblogo,
-            description: "J'ai fait ce projet dans le but d'apprendre à comment faire et developper une application mobile.",
+            description: "Développement d'une application mobile pour compter le score entre deux equipes durant un match de volley-ball.",
             langage: "Java/Android Studio",
             lien: "https://github.com/LucashMan/VolleyApp",
             isUpdate: "yes"
@@ -18,7 +18,7 @@ function Projets() {
         {
             titre: "Project Overland",
             image: POlogo,
-            description: "Développement d'un jeu vidéo sur le logiciel Unreal Engine dans le cadre d'un projet sur 3 ans au sein de mon ecole. Le jeu a pour theme de mettre en version digital les jdr afin de faciliter l'accées à plus de monde",
+            description: "Développement d'un jeu vidéo sur le logiciel Unreal Engine dans le cadre d'un projet sur trois ans au sein de mon école. Le jeu a pour but de mettre en version numérique les jeux de rôle (jdr) sur table afin de faciliter l'accès aux joueurs et de permettre une meilleure immersion grâce au système de création de monde.",
             langage: "Unreal Engine/C++",
             lien: "https://exemple.com/projet2",
             isUpdate: "yes"
@@ -26,23 +26,23 @@ function Projets() {
         {
             titre: "Epiquest",
             image: Epilogo,
-            description: "Création d'un jeu video ludique ou l'on peut apprendre le langage informatique Python.",
+            description: "Création d’un jeu 3D interactif permettant d’apprendre le langage Python en résolvant des défis de programmation.\nLe projet combine jeu vidéo et éducation il est destiné aux débutants en programmation.",
             langage: "Unreal Engine/C++",
             lien: "https://drive.google.com/drive/folders/1A0cJnrf7v9ugSh3KqxaRWTit7im6u-B9?usp=sharing",
             isUpdate: "yes"
         },
-        {
-            titre: "Counter Strat",
-            image: CSlogo,
-            description: "Passionnée de jeux video et nottanment du jeux Counter Strike, j'ai décidé de developpé un strat book pour s'ameliorer au jeu et ainsi mieux jouer en equipe.",
-            langage: "Stack MERN",
-            lien: "https://drive.google.com/drive/folders/1A0cJnrf7v9ugSh3KqxaRWTit7im6u-B9?usp=sharing",
-            isUpdate: "no"
-        },
+        // {
+        //     titre: "Counter Strat",
+        //     image: CSlogo,
+        //     description: "Passionnée de jeux video et nottanment du jeux Counter Strike, j'ai décidé de developpé un strat book pour s'ameliorer au jeu et ainsi mieux jouer en equipe.",
+        //     langage: "Stack MERN",
+        //     lien: "https://drive.google.com/drive/folders/1A0cJnrf7v9ugSh3KqxaRWTit7im6u-B9?usp=sharing",
+        //     isUpdate: "no"
+        // },
         {
             titre: "Hackaton realisé",
             image: HKlogo,
-            description: "\bHackaton Bibliotheca 2022 (2eme place) *La bibliothéque du futur* avec la ville de Nice  \n\bHackaton Inclusion 2023 (2eme place) *La technologie au service de l’inclusion* avec le What06 \n\bHackaton Tech for tourism 2023 (2eme place) *La technologie et le tourisme de demain* avec Cannes is UP",
+            description: ">Hackaton Bibliotheca 2022 (2eme place) *La bibliothéque du futur* avec la ville de Nice  \n>Hackaton Inclusion 2023 (2eme place) *La technologie au service de l’inclusion* avec le What06 \n>Hackaton Tech for tourism 2023 (2eme place) *La technologie et le tourisme de demain* avec Cannes is UP",
             langage: "Hackaton",
             lien: null,
             isUpdate: "no"
