@@ -1,0 +1,60 @@
+.mcv-contactform {
+    background-image: url("../Assets/img/couchersoleil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid 3px black;
+}
+
+.mcv-formcontainer {
+    background: #b0f2b6;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 20px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mcv-input, .mcv-textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    background: #2c2c2c;
+    color: white;
+}
+
+.mcv-textarea {
+    height: 250px;
+    width: 400px;
+    resize: none;
+}
+
+.mcv-button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.mcv-button:hover {
+    transform: scale(1.05);
+    background: #e6b800;
+}
+
+.mcv-button:active {
+    transform: scale(0.95);
+}

@@ -4,6 +4,7 @@ import MyCv from "./MyCv";
 import ContactForm from "./Contactform";
 import Projets from "./Projets";
 import Hobbys from "./Hobbys";
+import Footer from "./Footer";
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Projets />
       <Hobbys />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
