@@ -13,7 +13,7 @@
 }
 
 .competence-logo {
-    width: 100;
+    width: auto;
     height: 100px;
     transition: transform 0.3s ease-in-out;
 }
@@ -22,8 +22,26 @@
     transform: scale(1.1);
 }
 
+
+@media (max-width: 768px) {
+    .competence-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media (max-width: 600px) {
     .competence-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .competence-logo {
+        max-width: 100px;
+        min-width: 80px;
+        height: auto;
+    }
+
+    .mcv-competence {
+        border: solid 3px black;
     }
 }

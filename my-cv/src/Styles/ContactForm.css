@@ -21,7 +21,8 @@
     align-items: center;
 }
 
-.mcv-input, .mcv-textarea {
+.mcv-input,
+.mcv-textarea {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -57,4 +58,31 @@
 
 .mcv-button:active {
     transform: scale(0.95);
+}
+
+@media screen and (max-width: 768px) {
+    .mcv-formcontainer {
+        width: 90%;
+        max-width: 400px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .mcv-input,
+    .mcv-textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .mcv-textarea {
+        height: 180px;
+        resize: none;
+    }
+
+    .mcv-button {
+        width: 100%;
+        margin-top: 10px;
+    }
 }

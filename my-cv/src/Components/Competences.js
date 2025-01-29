@@ -1,6 +1,4 @@
 import '../Styles/Competences.css';
-
-
 import jsLogo from '../Assets/img/javascript.png';
 import reactLogo from '../Assets/img/reactjs.png';
 import nodeLogo from '../Assets/img/nodejsrmbg.png';
@@ -9,7 +7,6 @@ import git from '../Assets/img/github.png'
 import ReactNativeLogo from '../Assets/img/react-native.png';
 import EXLogo from '../Assets/img/expressjsrmbg.png';
 import MongoLogo from '../Assets/img/mongodb.png'
-
 
 
 function Competences() {
