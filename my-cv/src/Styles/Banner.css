@@ -5,25 +5,21 @@
 
 .mcv-banner {
     color: black;
-    text-align: center; /* Centrer le texte pour un meilleur rendu */
-    padding: 100px 20px; /* Réduction du padding pour éviter le débordement */
+    text-align: center; 
+    padding: 100px 20px; 
     border-bottom: solid 3px black;
     display: flex;
-    justify-content: center; /* Centrage sur petit écran */
+    justify-content: center; 
     flex-direction: column;
     align-items: center;
     background-image: url("../Assets/img/cerf.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; /* Ajuste l’image pour éviter qu’elle coupe mal */
-    width: 100%; /* Empêche le dépassement horizontal */
-    max-width: 100vw; /* Sécurise contre un éventuel débordement */
-    box-sizing: border-box; /* Évite que le padding agrandisse la bannière */
+    background-position: center; 
+    width: 100%; 
+    max-width: 100vw;
+    box-sizing: border-box; 
 }
-
-
-
-
 
 .mcv-header {
     display: flex;
@@ -46,7 +42,6 @@
     color: black;
     font-size: 35px;
     font-weight: bold;
-    text-transform: capitalize;
     font-family: bannerfont;
 }
 

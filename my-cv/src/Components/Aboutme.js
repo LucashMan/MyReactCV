@@ -10,7 +10,7 @@ function Aboutme() {
                 du <strong>1ᵉʳ mars au 31 août 2025</strong> à temps plein.
             </p>
             <p>
-                Je suis <strong>autonome</strong> et passionné par les <strong>nouvelles technologies</strong>. 🚀
+                Je suis <strong>autonome</strong> et passionné par les <strong>nouvelles technologies</strong>.
             </p>
         </div>
     );

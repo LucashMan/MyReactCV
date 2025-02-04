@@ -1,7 +1,7 @@
 .mcv-apropos {
-    text-align: center; /* Centrer le texte */
-    max-width: 800px; /* Largeur max pour éviter que ça s'étale */
-    margin: 30px auto; /* Centrer dans la page */
+    text-align: center;
+    max-width: 800px; 
+    margin: 30px auto; 
     padding: 20px;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .mcv-apropos p {
-    text-align: justify; /* Justifier le texte */
-    line-height: 1.6; /* Espacement entre les lignes */
+    text-align: justify; 
+    line-height: 1.6; 
     font-size: 18px;
 }

@@ -7,9 +7,9 @@ import gamesimage from "../Assets/img/gamesicon.png";
 import devimage from "../Assets/img/devgames.png";
 
 const hobbiesData = [
-  { id: 1, title: "Sport", image: vbimage, description: "J'adore le volley" },
-  { id: 2, title: "Voyage", image: tripimage, description: "J'adore voyager" },
-  { id: 3, title: "Jeux vidéos", image: gamesimage, description: "J'adore les jeux vidéos" },
+  { id: 1, title: "Sport", image: vbimage, description: "J'aime jouer au volley-ball et football" },
+  { id: 2, title: "Voyage", image: tripimage, description: "J'aime voyager et découvrir des cultures" },
+  { id: 3, title: "Jeux vidéos", image: gamesimage, description: "J'aime jouer aux jeux vidéo" },
   { id: 4, title: "Développement jeux vidéos", image: devimage, description: "J'aime créer et développer des jeux vidéos" },
 ];
 
