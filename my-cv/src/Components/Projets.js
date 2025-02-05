@@ -1,7 +1,7 @@
 import '../Styles/Projets.css'
 import vblogo from '../Assets/img/vbscore.png';
 import POlogo from '../Assets/img/POlogo.png';
-import Epilogo from '../Assets/img/Python.png';
+import Epilogo from '../Assets/img/loogo.png';
 /*import CSlogo from '../Assets/img/CSlogo.png';*/
 import HKlogo from '../Assets/img/hackaton.png';
 
